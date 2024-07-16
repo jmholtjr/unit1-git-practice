@@ -1,0 +1,136 @@
+/c/Users/jmhol/oneDrive/desktop/unit1-git-practice/
+
+### Step 2A
+JohnHolt@NameIT MINGW64 ~
+$ pwd
+/c/Users/jmhol
+
+### Step 2B
+JohnHolt@NameIT MINGW64 ~
+$ cd oneDrive/desktop
+
+### Step 2C
+$ cd unit1-git-practice/
+
+
+### Step 2D
+$ cd c/Users/jmhol/oneDrive/desktop/unit1-git-practice
+
+
+### Step 2E
+ls
+
+### Step 2F
+my-steps.txt
+
+
+### Step 2G
+$ cd ~
+
+JohnHolt@NameIT MINGW64 ~
+$ pwd
+/c/Users/jmhol
+
+JohnHolt@NameIT MINGW64 ~
+$ cd ..
+
+JohnHolt@NameIT MINGW64 /c/Users
+$ cd ..
+
+JohnHolt@NameIT MINGW64 /c
+
+
+### Step 2H
+$ pwd
+/c
+
+
+### Step 2I
+$ ls
+'$Recycle.Bin'/             PerfLogs/                     Users/
+'$SysReset'/               'Program Files'/               Windows/
+'$WinREAgent'/             'Program Files (x86)'/         eSupport/
+ Config.Msi/                ProgramData/                  hiberfil.sys
+'Documents and Settings'@   Recovery/                     pagefile.sys
+ DumpStack.log.tmp         'System Volume Information'/   swapfile.sys
+
+
+### Step 2J
+JohnHolt@NameIT MINGW64 /c
+$ cd ~
+
+JohnHolt@NameIT MINGW64 ~
+$
+
+### Step 2K
+JohnHolt@NameIT MINGW64 ~
+$ cd OneDrive/desktop/unit1-git-practice/
+
+JohnHolt@NameIT MINGW64 ~/OneDrive/desktop/unit1-git-practice
+$
+
+
+### Step 3A
+$ git config --global user.name "John Holt"
+$ mkdir veggies
+$ mkdir meats
+$ mkdir desserts
+
+### Step 3B
+$ mv desserts sweets
+
+### Step 3C
+$ mkdir protiens
+
+### Step 3D
+$ mv meats protiens
+
+### Step 3E
+$ cd veggies
+$ touch carrot.txt
+$ touch pea.txt
+
+### Step 3F
+$ cd ..
+$ cd sweets
+$ touch cookie.txt
+
+### Step 3G
+$ mv cookie.txt dognut.txt
+
+### Step 3H
+$ touch thing.txt
+
+### Step 3I
+$ cp -r thing.txt tofu.txt
+
+### Step 3J
+$ mv tofu.txt protiens/
+
+### Step 3K
+$ cp -r thing.txt crab.txt
+$ mv crab.txt protiens/
+$ cd protiens
+$ mv crab.txt meats/
+
+### Step 3L
+$ rm -r thing.txt
+
+### Step 3M
+$ cp -r veggies plants
+
+### Step 3N
+$ mkdir drinks
+$ rm -r drinks
+
+### Step 4
+
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
