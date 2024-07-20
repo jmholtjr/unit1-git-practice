@@ -125,6 +125,40 @@ $ rm -r drinks
 
 ### Step 4
 
+JohnHolt@NameIT MINGW64 ~/OneDrive/Desktop
+$ cd unit1-git-practice
+
+JohnHolt@NameIT MINGW64 ~/OneDrive/Desktop/unit1-git-practice 
+$ ls
+my-steps.txt  plants/  protiens/  sweets/  veggies/
+
+JohnHolt@NameIT MINGW64 ~/OneDrive/Desktop/unit1-git-practice
+$ git init
+
+JohnHolt@NameIT MINGW64 ~/OneDrive/Desktop/unit1-git-practice (master)
+$ git add .
+warning: in the working copy of 'my-steps.txt', LF will be replaced by CRLF the next time Git touches it
+
+JohnHolt@NameIT MINGW64 ~/OneDrive/Desktop/unit1-git-practice (master)
+$ git config --global user.email "jmholtjr@gmail.com"
+
+JohnHolt@NameIT MINGW64 ~/OneDrive/Desktop/unit1-git-practice (master)
+$ git config --global user.name "John Holt"
+
+JohnHolt@NameIT MINGW64 ~/OneDrive/Desktop/unit1-git-practice (master)
+$ git commit -m 'first commit'
+[master (root-commit) dafa505] first commit
+ 8 files changed, 136 insertions(+)
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 protiens/meats/crab.txt
+ create mode 100644 protiens/tofu.txt
+ create mode 100644 sweets/dognut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
+
+
 
 ### Step 5
 
