@@ -158,9 +158,22 @@ $ git commit -m 'first commit'
  create mode 100644 veggies/carrot.txt
  create mode 100644 veggies/pea.txt
 
-
-
 ### Step 5
+https://github.com/jmholtjr/unit1-git-practice.git/
+
+$ git remote add origin https://github.com/jmholtjr/unit1-git-practice.git
+$ git branch -M main
+$ git push -u origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 1.65 KiB | 1.65 MiB/s, done.
+Total 11 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/jmholtjr/unit1-git-practice.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
 
 
 ### Step 6
